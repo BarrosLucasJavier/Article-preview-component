@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color:hsl(210, 46%, 95%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.article-container{
+    width: 90vw ;
+    margin: auto;
+    color: hsl(214, 17%, 51%);
+    font-size: 13px;
+    
+}
+.article-bottom{
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.article-img{
+    background-image: url('../images/drawers.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+}
+.article-share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-share img{
+    width: 50px;
+    border-radius: 50%;
+}
+.article-share-icons{
+    display: none;
 }
